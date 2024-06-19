@@ -1,0 +1,284 @@
+{
+  "asset": {
+    "generator": "Khronos glTF Blender I/O v4.1.62",
+    "version": "2.0"
+  },
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "Curve.227",
+      "rotation": [
+        0.7071068286895752,
+        0,
+        0,
+        0.7071068286895752
+      ],
+      "scale": [
+        108.45654296875,
+        121.90499114990234,
+        121.90501403808594
+      ],
+      "translation": [
+        -1.7114143371582031,
+        4.314631462097168,
+        -0.7174802422523499
+      ]
+    }
+  ],
+  "animations": [
+    {
+      "channels": [
+        {
+          "sampler": 0,
+          "target": {
+            "node": 0,
+            "path": "translation"
+          }
+        },
+        {
+          "sampler": 1,
+          "target": {
+            "node": 0,
+            "path": "rotation"
+          }
+        },
+        {
+          "sampler": 2,
+          "target": {
+            "node": 0,
+            "path": "scale"
+          }
+        }
+      ],
+      "name": "Curve.227Action.001",
+      "samplers": [
+        {
+          "input": 4,
+          "interpolation": "STEP",
+          "output": 5
+        },
+        {
+          "input": 6,
+          "interpolation": "LINEAR",
+          "output": 7
+        },
+        {
+          "input": 4,
+          "interpolation": "STEP",
+          "output": 8
+        }
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "testingMaterial",
+      "normalTexture": {
+        "index": 0
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 1
+        },
+        "metallicRoughnessTexture": {
+          "index": 2
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Curve.229",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ],
+  "images": [
+    {
+      "name": "normal map",
+      "uri": "actualLogo2_img0.png"
+    },
+    {
+      "name": "diffuse map",
+      "uri": "actualLogo2_img1.png"
+    },
+    {
+      "name": "metallic map.png-roughness map.png",
+      "uri": "actualLogo2_img2.png"
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 43699,
+      "max": [
+        0.052466489374637604,
+        0.009000000543892384,
+        0.03625022619962692
+      ],
+      "min": [
+        -0.03166598826646805,
+        -0.009000000543892384,
+        -0.06610826402902603
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 43699,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 43699,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5123,
+      "count": 212520,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "count": 2,
+      "max": [
+        8.333333333333334
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5126,
+      "count": 2,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 6,
+      "componentType": 5126,
+      "count": 201,
+      "max": [
+        8.333333333333334
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 7,
+      "componentType": 5126,
+      "count": 201,
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 8,
+      "componentType": 5126,
+      "count": 2,
+      "type": "VEC3"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 524388,
+      "byteOffset": 0,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 524388,
+      "byteOffset": 524388,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 349592,
+      "byteOffset": 1048776,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 425040,
+      "byteOffset": 1398368,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 8,
+      "byteOffset": 1823408
+    },
+    {
+      "buffer": 0,
+      "byteLength": 24,
+      "byteOffset": 1823416
+    },
+    {
+      "buffer": 0,
+      "byteLength": 804,
+      "byteOffset": 1823440
+    },
+    {
+      "buffer": 0,
+      "byteLength": 3216,
+      "byteOffset": 1824244
+    },
+    {
+      "buffer": 0,
+      "byteLength": 24,
+      "byteOffset": 1827460
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "actualLogo2_data.bin",
+      "byteLength": 1827484
+    }
+  ]
+}
