@@ -1,4 +1,5 @@
 ## Portfolio Website
+Built with ReactJS, TailwindCSS and GSAP
 
 ### Running the website
 Install dependencies
@@ -11,3 +12,4 @@ npm run start
 ```
 
 ### View the live website
+https://liyunling.netlify.app
